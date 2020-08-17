@@ -1,1 +1,20 @@
-theme: jekyll-theme-minimal
+title: Jennifer Bui
+email: "jentbui03@gmail.com"
+description: >-
+  Jennifer Bui's personal site
+
+github_username: penjikenji
+
+repository: "penjikenji/penjikenji.github.io"
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - update_boostrap.sh

@@ -1,0 +1,64 @@
+$web-font: "https://fonts.googleapis.com/css?family=Karla" !default;
+@import url($web-font);
+@import "nord";
+
+body {
+    background-color: $nord0;
+    font-family: Karla;
+}
+
+.home-body {
+    text-align: center;
+    margin-left: 10%;
+    position: relative;
+    left: -150px;
+    top: 150px;
+    border-left-width: 100px;
+}
+
+.home-header, .nav-link a, .navbar-nav a,
+.project-link, .project-link-date, .divider,
+.social-icons, .post, .project-date, .about-text, 
+.navigation a, .notfound-text{
+    color: $nord4;
+}
+ 
+.navbar-nav a:hover, .navbar-nav a:active {
+    color: $nord3;
+}
+
+
+.home-social {
+    padding-top: 1%;
+}
+
+.social-icons{
+    padding: 10px;
+}
+
+.social-icons:hover, .social-icons:active {
+    color: $nord7;
+}
+
+.home-divider {
+    width: 10%;
+    background-color: $nord7;
+    height: 3px;
+}
+
+
+.post-link {
+    left: -20%;
+    top: 100%;
+    font-size: x-large;
+    font-weight: bolder;
+    color: $nord4;
+}
+
+.list-group-item {
+    background-color: $nord2;
+}
+
+.list-group-item:hover, .list-group-item:active {
+    background-color: $nord3;
+}
